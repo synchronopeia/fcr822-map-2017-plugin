@@ -9,7 +9,7 @@ This is a refactor of an interactive map/table created for a client website. The
 
 ## Client Specification
 
-Client supplied data in the form of a [spreadsheet](https://github.com/synchronopeia/fcr822-map-2017-data/client-files/data.csv).
+Client supplied data in the form of a spreadsheet [data.csv](https://github.com/synchronopeia/fcr822-map-2017-data/tree/main/client-files).
 
 The data includes multiple fields related to _forest cover_ as well as _finance_ listed by country.
 
