@@ -9,18 +9,18 @@ This is a refactor of an interactive map/table created for a client website. The
 
 ## TODO
 
--[x] set up app directory structure
--[x] set up Webpack 5
--[x] fetch JSON data
--[x] configure MapBox
--[x] display choropleth
--[x] display centroid circles
--[] deal with missing values
--[] incorporate buttons to select forest & finance data fields
--[] incorporate slider to select finance data range
--[] expand README
--[] properly set up Webpack for production build
--[] refine styling
+- [x] set up app directory structure
+- [x] set up Webpack 5
+- [x] fetch JSON data
+- [x] configure MapBox
+- [x] display choropleth
+- [x] display centroid circles
+- [] deal with missing values
+- [] incorporate buttons to select forest & finance data fields
+- [] incorporate slider to select finance data range
+- [] expand README
+- [] properly set up Webpack for production build
+- [] refine styling
 
 ## Versions
 
