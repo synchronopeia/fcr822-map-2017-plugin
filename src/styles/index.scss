@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'scaffolding';
+
+body { margin: 0; padding: 0; }
+
+.map_box_container{
+  position: relative;
+  height: 400px !important;
+  width: 750px !important;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}

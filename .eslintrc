@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 10,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["airbnb", "airbnb/hooks"],
+  "settings": {
+    "import/resolver": {
+      "node": { "extensions": [".js", ".mjs", ".jsx"] }
+    }
+  },
+  "rules": {
+    "import/extensions": ["error", "always", {
+      "js": "never",
+      // "mjs": "never",
+      "jsx": "never"
+    }]
+  }
+}
