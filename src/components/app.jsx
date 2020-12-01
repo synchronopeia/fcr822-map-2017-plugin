@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import FieldSelector from './field-selector';
 
 import fetch from '../lib/fetch.mjs';
 
@@ -101,6 +102,14 @@ const App = (props) => {
     return difference;
   };
 
+  const handleFinanceSelection = (nextSelectedField) => {
+    setSelectedFinanceField(nextSelectedField);
+  };
+
+  const handleForestSelection = (nextSelectedField) => {
+    setSelectedForestField(nextSelectedField);
+  };
+
   const redrawFinanceLayer = () => {
     if (map.getLayer('centroid-layer')) map.removeLayer('centroid-layer');
     if (!selectedFinanceField) return;
@@ -171,7 +180,8 @@ const App = (props) => {
 
   return (
     <div>
-      Field selection buttons go here
+      <FieldSelector onChange={handleForestSelection} fieldDefs={(schemaDefs || []).filter((def) => (def.dataGroup === 'forest'))} />
+      <FieldSelector onChange={handleFinanceSelection} fieldDefs={(schemaDefs || []).filter((def) => (def.dataGroup === 'finance'))} />
     </div>
   );
 };

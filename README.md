@@ -15,13 +15,14 @@ This is a refactor of an interactive map/table created for a client website. The
 - [x] configure MapBox
 - [x] display choropleth
 - [x] display centroid circles
-- [] deal with missing values
-- [] incorporate buttons to select forest & finance data fields
-- [] incorporate slider to select finance data range
-- [] expand README
-- [] properly set up Webpack for production build
-- [] refine styling
+- [ ] deal with missing values
+- [x] incorporate buttons to select forest & finance data fields
+- [ ] incorporate slider to select finance data range
+- [ ] expand README
+- [ ] properly set up Webpack for production build
+- [ ] refine styling
 
 ## Versions
 
 0.1.0 - basic map with choropleth and centroid circles
+0.2.0 - incorporate buttons to select forest & finance data fields
